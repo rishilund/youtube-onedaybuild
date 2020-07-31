@@ -9,11 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let model = Model()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let i = 0 
+        model.getVideos()
     }
 
 
